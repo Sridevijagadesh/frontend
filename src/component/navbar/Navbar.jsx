@@ -9,7 +9,7 @@ const Navbar = ()=>{
 return(<>
 <div className="navbar">
 <div className="nav-log">
-  <img src={logo}></img>
+  <img src={logo} alt=""/>
   <p>Shopper</p>
 </div>
 <ul className="nav-menu">
@@ -20,7 +20,7 @@ return(<>
 </ul>
 <div className="nav-login-cart">
   <button><Link to='/login'  style={{textDecoration: 'none', color:"black"}}>login</Link></button>
- <Link to='/cart'><img src={cart_icon} ></img></Link>  
+ <Link to='/cart'><img src={cart_icon}  alt=""></img></Link>  
   <div className="nav-cart-count">0</div>
 </div>
 </div>
