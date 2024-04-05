@@ -7,6 +7,7 @@ import Product from './pages/Product';
 import Cart from './pages/Cart';
 import LoginSingOut from './pages/LoginSingOut';
 import Shop from './pages/Shoped';
+import Footer from './component/Footer/Footer';
 
 
 function App() {
@@ -24,10 +25,8 @@ function App() {
         <Route path='/productId' element={<Product/>}/>
         <Route path='/cart' element= {<Cart/>}/>
         <Route path='/login' element={<LoginSingOut/>}/>
-        
-
-        
-      </Routes>
+        </Routes>
+        <Footer/>
       </BrowserRouter>
   
     </div>
