@@ -1,7 +1,6 @@
 import React from 'react'
 import './Item.css'
 const Item = (props) => {
-  console.log(props)
   return (
     <div className='item'>
       <img src={props.image} alt="" />
