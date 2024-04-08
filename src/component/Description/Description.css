@@ -1,0 +1,29 @@
+.description{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.description-navigator{
+  display: flex;
+  gap:50px;
+  margin-bottom: 20px;
+}
+.description-nav-box{
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: red
+}
+.descriptionbox-description{
+  border: 1px solid black;
+  padding: 10px;
+}
+.descriptionbox-description p{
+  font-size: 16px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
