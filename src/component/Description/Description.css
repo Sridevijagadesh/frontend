@@ -1,10 +1,5 @@
 .description{
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  align-items: center;
-  justify-content: center;
+  margin: 120px 170px ;
 }
 .description-navigator{
   display: flex;
@@ -20,6 +15,7 @@
 .descriptionbox-description{
   border: 1px solid black;
   padding: 10px;
+  /* width: 550px; */
 }
 .descriptionbox-description p{
   font-size: 16px;
