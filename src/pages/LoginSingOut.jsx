@@ -7,11 +7,13 @@ const LoginSingOut = () => {
   const [email , setEmail] = useState('');
   const [password , setpassword] = useState('')
   const myData = ()=>{
- Axios.post('http://localhost/8081/loginPage',{
-  name:name,
-  email:email,
-  password:password
- })
+    console.log(name , email,  password)
+
+Axios.post('http://localhost:8081/loginPage',{
+  name: name,
+  email: email,
+  password: password
+})
   }
   return (
     <div className='loginsignup'>
@@ -22,7 +24,7 @@ const LoginSingOut = () => {
           <input type='email' placeholder='your email'onChange={(e)=>{setEmail(e.target.value)}}></input>
           <input type='password' placeholder='password' onChange={(e)=>{setpassword(e.target.value)}}></input>
         </div>
-        <button>continue</button>
+        <button onClick={myData}>continue</button>
         <div className="loginsignup-login">Alredy have an account? <span>Login here</span></div>
         <div className="loginsignup-agree">
           <input type='checkbox' name='' id=''/>
